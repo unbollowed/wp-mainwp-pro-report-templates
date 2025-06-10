@@ -1,7 +1,7 @@
 <?php
 /*
-Template Name: EDG
-Description: Modern template for the MainWP Pro Reports extension
+Template Name: EDG[modern-clean-default]
+Description: Custom template for the MainWP Pro Reports extension
 Author: Edgar Bollow
 Version: 1.0.0
 Screenshot URI: ../wp-content/plugins/mainwp-pro-reports-extension/images/template-modern.jpg
@@ -249,7 +249,7 @@ $report_intro = MainWP_Pro_Reports_Utility::esc_content(nl2br($report->intro));
 				<tbody>
 					<tr>
 						<th>Website</th>
-						<td><a href="[client.site.url]?utm_source=website-care-report&utm_medium=website-care-report" target="_blank" rel="external">[client.site.name]</a></td>
+						<td><a href="[client.site.url]" rel="external">[client.site.name]</a></td>
 					</tr>
 					<tr>
 						<th>Zeitraum</th>
@@ -631,8 +631,8 @@ $report_intro = MainWP_Pro_Reports_Utility::esc_content(nl2br($report->intro));
 				</tbody>
 			</table>
 			<figure style="display: none;">
-				<img src="https://quickchart.io/chart/render/sp-865aca3c-c9c6-42af-a551-48237565c08b" alt="Dieses Diagramm stellt die Website-Besuche des aktuellen Zeitraums grafisch dar">
-				<figcaption>Dieses Diagramm stellt die Website-Besuche des aktuellen Zeitraums grafisch dar</figcaption>
+				<img src="https://quickchart.io/chart/render/sp-865aca3c-c9c6-42af-a551-48237565c08b" alt="Website-Besuche des aktuellen Zeitraums grafisch dargestellt">
+				<figcaption>Website-Besuche des aktuellen Zeitraums grafisch dargestellt</figcaption>
 			</figure>
 			[ga.visits.chart]
 		</section>
@@ -645,7 +645,7 @@ $report_intro = MainWP_Pro_Reports_Utility::esc_content(nl2br($report->intro));
 		<section aria-labelledby="performance">
 			<div class="flow section-heading-spacer">
 				<h2 id="performance">Performance</h2>
-				<p>Dies sind die Ergebnisse der regelmäßigen Leistungstests der Website, die mit dem Tool <a href="https://pagespeed.web.dev" target="_blank" rel="external">Google Lighthouse</a> durchgeführt wurden. Die Werte geben Einblicke in verschiedene Aspekte der Website-Performance auf Desktop- und Mobilgeräten.</p>
+				<p>Dies sind die Ergebnisse der regelmäßigen Leistungstests der Website, die mit dem Tool <a href="https://pagespeed.web.dev" rel="external">Google Lighthouse</a> durchgeführt wurden. Die Werte geben Einblicke in verschiedene Aspekte der Website-Performance auf Desktop- und Mobilgeräten.</p>
 			</div>
 			<table>
 				<thead>

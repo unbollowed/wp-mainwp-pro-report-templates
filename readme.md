@@ -1,4 +1,4 @@
-# Directories for custom template files
+# Directories to put custom template files
 
 ## Reports
 
