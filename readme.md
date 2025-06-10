@@ -1,1 +1,9 @@
-Directory to put custom template files: `/wp-content/plugins/mainwp-pro-reports-extension/(emails|reports)`
+# Directories for custom template files
+
+## Reports
+
+`/wp-content/uploads/mainwp/report-templates/`
+
+## Emails
+
+`/wp-content/uploads/mainwp/report-email-templates/`
