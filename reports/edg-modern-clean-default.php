@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: EDG[modern-clean-default]
+Template Name: EDG[modern_clean_default]
 Description: Custom template for the MainWP Pro Reports extension
 Author: Edgar Bollow
 Version: 1.0.0
